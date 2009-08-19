@@ -28,7 +28,7 @@ LOCAL_C_INCLUDES := 			\
 	$(GST_PLUGINS_UGLY_TOP)		\
 	$(GST_PLUGINS_UGLY_TOP)/android	\
 	external/gstreamer		\
-	external/gstreamer/android 	\
+	external/gstreamer/android/arch/$(TARGET_ARCH) 	\
 	external/gstreamer/libs		\
 	external/gstreamer/gst		\
 	external/gstreamer/gst/android	\
